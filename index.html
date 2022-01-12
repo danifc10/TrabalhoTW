@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="logica.js"></script>
+    <title>Era</title>
+</head>
+<header>
+ 
+    <div class="menu">
+        <ul>
+            <li>Buy</li>
+            <li>Rent</li>
+            <li>Sell</li>
+            <li>ERA Radar</li>
+            <li>Careers</li>
+            <li>Advantages</li>
+            <li>Contact information</li>
+            <li><img src="img/heart.png"></li>
+            <li><img src="img/cronometro.png"></li>
+            <li><img src="img/pessoa.png"></li>
+            <li><img src="img/chat.png"></li>
+        </ul>
+    </div>
+    <div class="logo">
+        <img src="img/logo.png">
+    </div>
+
+
+    <div class="search">
+        <div class="searchbar">
+                <button id="buy">BUY </button>
+                <button id="prop">PROPERTY TYPE</button>
+                <button id="room">ROOM</button>
+                <input id="input1" type="text" placeholder="Location (Municipality, Parish, Area)">
+      
+       
+            <button id="button1">FIND</button>
+            <button id="button2">Options</button>
+        </div>
+    </div>
+</header>
+<body>
+
+        <h1 id="titulo1">HIGHLIGHTS</h1>
+
+    <div class="menu2">
+        <ul>
+            <li>ALL</li>
+            <li>ERA WARRANTY</li>
+            <li>EXCLUSIVE</li>
+            <li>DEVELOPMENTS</li>
+            <li>VIRTUAL TOUR</li>
+        </ul>
+    </div>
+
+<div class="gallery"> 
+    <div class="container" id="img1">
+        <div class="appear-on-hover1" >
+            Lisboa
+        </div>
+        <img src="img/img1.jpg" id="imagem1" >
+    </div>
+    <div class="container">
+        <div class="appear-on-hover">
+            Porto
+        </div>
+        <img src="img/img2.png"  >
+    </div>
+    <div class="container">
+        <div class="appear-on-hover">
+            Coimbra
+        </div>
+        <img src="img/img3.jpg" >
+    </div>
+    <div class="container">
+        <div class="appear-on-hover">
+            Viseu
+        </div>
+        <img src="img/img4.jpg"  >
+    </div>
+    <div class="container">
+        <div class="appear-on-hover">
+            Aveiro
+        </div>
+        <img src="img/img5.jpg" >
+    </div>
+    <div class="container">
+        <div class="appear-on-hover">
+            Vila Real
+        </div>
+        <img src="img/img6.jpg"  >
+    </div>
+    <div class="container">
+        <div class="appear-on-hover">
+            Évora
+        </div>
+        <img src="img/img7.jpg"  >
+    </div>
+    <div class="container">
+        <div class="appear-on-hover">
+            Algarve
+        </div>
+        <img src="img/img8.jpg"  >
+    </div>
+    <div class="container">
+        <div class="appear-on-hover">
+            Covilhã
+        </div>
+        <img src="img/img9.jpg" >
+    </div>
+    <div class="container">
+        <div class="appear-on-hover">
+            Águeda
+        </div>
+        <img src="img/img10.jpg" >
+    </div>
+    <div class="container">
+        <div class="appear-on-hover">
+            Guarda
+        </div>
+        <img src="img/img11.jpg" >
+    </div>
+    <div class="container">
+        <div class="appear-on-hover">
+            Setúbal
+        </div>
+        <img src="img/img12.jpg" >
+    </div>
+    <div class="container">
+        <div class="appear-on-hover">
+            Beja
+        </div>
+        <img src="img/img13.jpg" >
+    </div>
+    <div class="container">
+        <div class="appear-on-hover">
+           Faro
+        </div>
+        <img src="img/img14.jpg" >
+    </div>
+    <div class="container">
+        <div class="appear-on-hover">
+           Figueira da Foz
+        </div>
+        <img src="img/img15.png" >
+    </div>   
+</div>
+
+<h1 id="titulo2">People who buy or sell a house with<br>ERA have more advantages.</h1>
+    <div class="logos">
+        <img src="img/logos.png">
+    </div>
+    <div class="texto">
+     <ul>
+            <li><h4>ERA WARRANTY</h4>
+                A warranty offered by ERA for homebuyers that<br>
+                covers unexpected repairs that may occur after the<br>
+                purchase.<br><br><br><h5>FIND OUT MORE</h5></li>
+            <li><h4>ENERGY PERFORMACE CERTIFICATE</h4> 
+                   ERA Warranty has 1+ advantage. a partnership ERA |<br>
+                   EDP which guarantees the Energy Performance<br>
+                   Certificate, required for listing your house, and pay it<br>
+                   later.<br><br><h5>FIND OUT MORE</h5></li>
+            <li> <h4>ERA NEW DEVELOPMENTS</h4>
+                 This is the largest selection of new developments<br>
+             throughout the country. Projects designed to detail<br>
+             with the most demanding quality standards. A<br>
+             unique.. <br><br><h5>FIND OUT MORE</h5></li>
+            <li> <h4>NEW HOMES</h4>
+            An ERA selection of New Homes, for those who<br>
+             prefer to live all the advantages of a newly built<br>
+             nome.<br><br><br><h5>FIND OUT MORE</h5></li>
+        </ul>
+    </div>
+
+    <div class="funçao">
+        <div class="containerf">
+    
+            <ul><h3>Calcule o preço do seu imóvel aqui</h3>
+                <li>Tipologia: 
+                    <select id="tipologia">
+                    <option value="to">T0</option>
+                    <option value="t1">T1</option>
+                    <option value="t2">T2</option>
+                    <option value="t3">T3</option>
+                    <option value="t4">T4</option>
+                    <option value="t5">T5</option>
+                    <option value="outro">OUTRO</option>
+                </select>
+                <li>Área útil:  <input type="text" id="area" placeholder="m2" ></li>
+                <li>Idade do imóvel:
+                    <select id="idade">
+                        <option value="0"> 0 < i ≤ 5 anos </option>
+                        <option value="1"> 5 < i ≤ 10 anos </option>
+                        <option value="2"> i > 10 anos </option>
+                    </select></li>
+                <li>Garagem: <select id="garagem">
+                    <option value="o">Sim</option>
+                    <option value="1">Não</option>
+                </select></li>
+                <li>Proximidade de Transportes Públicos: <select id="transporte"> 
+                    <option value="o">Sim</option>
+                    <option value="1">Não</option>
+                </select></li>  
+        </ul>
+        <button id="btnCalculo">CALCULAR</button>
+   
+    </div></div>
+
+<div class="hiddecontent" id="hiddecontent">
+	<div id="zonas" >
+        <div id="zona1">
+            <div id="appearOnHover">
+                Zona 1<br><br>120.000€
+                €/m2:<br>area:<br>***<br>***
+            </div>
+            <h3>Zona 1</h3><br><br>120.000€
+        
+        </div>
+        <div id="zona2">
+            <div id="appearOnHover">
+                Zona 2<br><br>200.000€
+                €/m2:<br>area:<br>***<br>***
+            </div>
+            <h3>Zona 2</h3><br><br>200.000€
+        </div>
+        <div id="zona3">
+            <div id="appearOnHover">
+                Zona 3<br><br>250.000€
+                €/m2:<br>area:<br>***<br>***
+            </div>
+            <h3>Zona 3</h3><br><br>250.000€
+        </div>
+    </div>
+  </div>
+
+    <div class="rodape1">
+        <h2>Most common searches</h2>
+      
+        <ul>
+            <li><h4>Apartments</h4>
+            Lisboa, Amadora, Sintra, Almada, Gondomar, Maia,<br> Porto,
+             Seixal, Cascais, Guarda.<br><br></li>
+            <li><h4>Houses</h4>
+            Ponta Delgada, Bragança, Évora, Almada, Mafra, Vila<br>
+            Nova de Gaia, Matosinhos, Sintra, Amares, Azambuja<br><br></li>
+            <li><h4>Lands</h4>
+            Águeda, Ponte de Lima, Proença-a-Nova, Barcelos,<br>
+            Amares, Esposende, Marco de Canaveses, Guarda,<br>
+            Tomar, Alcoutim</li>
+            <li><h4>Retail</h4>
+            Anadia, Guarda, Bragança, Braga, Lisboa, Lourinhã,<br>
+            Figueira da Foz, Oliveira do Bairro, Lamego, Faro<br><br> </li>
+            <li><h4>Farms and Estates</h4>
+            Lisboa, Ribe    ira Grande, Penamacor, Évora, Castelo<br>
+            Branco, Lagoa (São Miguel), Odemira, Felgueiras,<br> Ponta
+            Delgada, Grândola</li>
+            <li><h4>Property with Business</h4>
+            Trofa, Ponta Delgada, Vila Real, Lousada, Santarém,<br>
+            Bragança, Palmela, Miranda do Douro, Póvoa de<br>
+            Varzim, Terras de Bouro</li>
+        </ul>
+    </div>
+    <script src="logica.js"></script>
+</body>
+<footer>
+<div class="faixa">
+    <ul>
+        <li id="li1">Sell your property</li>
+        <li id="li2">Create a listing to sell or rent your property at our website.</li>
+        <li><button>CREATE LISTING</button></li>
+    </ul>
+</div>
+<div class="fim">
+
+<ul>
+    <h3>Properties</h3>
+    <li>Buy</li>
+    <li>Rent</li>
+    <li>Sell</li>
+    <li>ERA Radar</li>
+    <li>What are you looking for?</li>
+</ul>
+<ul>
+    <h3>Era Portugal</h3>
+    <li>About Us</li>
+    <li>Offices</li>
+    <li>Careers</li>
+    <li>Help us improve</li>
+    <li>Contact</li>
+</ul>
+<ul>
+    <h3>Franchising</h3>
+    <li>We want the best</li>
+    <li>Leadership model</li>
+    <li>Contact us</li>
+
+</ul>
+<ul>
+    <h3>Adventages</h3>
+    <li>Property Appraisal</li>
+    <li>ERA Warranty</li>
+    <li>ERA New Developments</li>
+    <li>More Advantages</li>
+    <br>
+</ul>
+<ul>
+    <h3>Media</h3>
+    <li>ERA Buisiness<br>Accelarator</li> 
+</ul>
+<ul id="social">
+    <h3>Follow us</h3>
+    <li><img src="img/face.png">
+    <img src="img/in.png">
+    <img src="img/youtube.png"></li>
+    <li><img src="img/insta.png">
+    <img src="img/pinterest.png">
+    <img src="img/messenger.png"></li>
+</ul>
+</div>
+<div class="faixafinal">
+    <ul id="creditos">
+        <li><img src="img/logo2.png"></li>
+        <li><h5>@2020 ERA Portugal, General Terms, Resolução Alternativa de Litígios, Privacy Policy, Complaints Book<br>All rights reserved, Powered by M&A Digital</h5></li>
+    </ul>
+    <ul id="select">
+        <li>
+            <select>
+                <option value="0">English</option>
+                <option value="1">Portuguese</option>
+            </select>
+        </li>
+    </ul>  
+</div>
+</footer>
+</html>
